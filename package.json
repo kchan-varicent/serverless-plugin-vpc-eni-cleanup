@@ -1,6 +1,6 @@
 {
 	"name": "serverless-plugin-vpc-eni-cleanup",
-	"version": "1.0.4",
+	"version": "1.0.4-awssdk",
 	"description": "Cleanup lambda VPS EC2 Network Interfaces on stack removal, to speed up the operation",
 	"author": "Mariusz Nowak <medyk@medikoo.com> (http://www.medikoo.com/)",
 	"keywords": [
@@ -16,7 +16,6 @@
 		"url": "git://github.com/medikoo/serverless-plugin-vpc-eni-cleanup.git"
 	},
 	"dependencies": {
-		"aws-sdk": "^2.1176.0",
 		"d": "^1.0.1"
 	},
 	"devDependencies": {
